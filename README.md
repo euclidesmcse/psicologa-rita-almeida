@@ -5,7 +5,7 @@ Landing page estática (PT-PT) — paleta rosa-claro `#F2D5D9` / bordô `#7A1F3D
 - **Formação:** UAL · ISPA | **Estágios:** APPDA-Setúbal
 - **Secções:** Hero · Sobre · Áreas (Adolescentes 12-17 / Adultos 18+) · Consultas Online · Cadeiras · FAQ · CTA
 - **Stack:** HTML+CSS puro, sem build, acessível (skip link, aria-label, FAQ accordion, focus-visible)
-- **Deploy local:** Docker `:8081` • K8s `NodePort 30081/30082` • Cloudflare Pages (conectar este repo)
+- **Deploy:** Cloudflare Pages ✅ `psicologa-rita-almeida.pages.dev` (Git `main` → produção) + `euclidespns.workers.dev` (legado) • Docker `:8081` • K8s `NodePort 30081/30082`
 
 > Proposta de design para a Dra. Rita Almeida — marca/domínio em aberto.
 

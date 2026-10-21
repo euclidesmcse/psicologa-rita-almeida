@@ -1,2 +1,6 @@
 node_modules/
 .DS_Store
+CONTEXTO_SESSAO.md
+check-carousel.js
+package.json
+package-lock.json
