@@ -28,6 +28,7 @@ robots.txt
 sitemap.xml
 site.webmanifest      # manifest PWA
 _headers              # cabeçalhos de segurança/cache (Cloudflare Pages)
+nginx.conf            # servidor local (Docker/K8s) com pretty URLs
 ```
 
 > **Privacidade:** `privacidade.html` é um documento de trabalho. Deve ser revisto pela responsável (e, se necessário, por jurista) antes da publicação definitiva.
