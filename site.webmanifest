@@ -1,0 +1,31 @@
+{
+  "name": "Dra. Rita Almeida — Psicóloga Clínica",
+  "short_name": "Rita Almeida",
+  "description": "Consultas de psicologia clínica presenciais em Setúbal e online para adolescentes e adultos.",
+  "lang": "pt-PT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FBF6EF",
+  "theme_color": "#7A1F3D",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

@@ -13,20 +13,23 @@
 <meta property="og:title" content="Dra. Rita Almeida — Psicóloga Clínica · OPP 135531">
 <meta property="og:description" content="Cédula OPP 135531 · Consultas presenciais e online para adolescentes e adultos. Acolhimento, escuta e acompanhamento psicológico.">
 <meta property="og:url" content="https://psicologa-rita-almeida.pages.dev/">
-<meta property="og:image" content="https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg">
-<meta property="og:image:width" content="600">
-<meta property="og:image:height" content="600">
-<meta property="og:image:alt" content="Dra. Rita Almeida, Psicóloga Clínica">
+<meta property="og:image" content="https://psicologa-rita-almeida.pages.dev/assets/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dra. Rita Almeida — Psicóloga Clínica, Cédula OPP 135531">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dra. Rita Almeida — Psicóloga Clínica · OPP 135531">
 <meta name="twitter:description" content="Consultas presenciais em Setúbal e online para adolescentes (12–17) e adultos (18+).">
-<meta name="twitter:image" content="https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg">
+<meta name="twitter:image" content="https://psicologa-rita-almeida.pages.dev/assets/og-image.jpg">
 <meta name="theme-color" content="#7A1F3D">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="apple-touch-icon" href="assets/rita-perfil-300.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" as="image" href="assets/rita-perfil-600.webp" imagesrcset="assets/rita-perfil-300.webp 300w, assets/rita-perfil-600.webp 600w" imagesizes="(max-width: 980px) 100vw, 420px" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/outfit-latin.woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
 <style>
 :root{
   --cream:#FBF6EF;
@@ -162,7 +165,7 @@ section{scroll-margin-top:80px}
 .online-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,30px)}
 .step{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:32px 26px;transition:transform .32s cubic-bezier(.22,1,.36,1),box-shadow .32s ease,border-color .32s ease}
 .step:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(122,31,61,.10);border-color:rgba(122,31,61,.18)}
-.step-num{font-family:var(--font-d);font-size:2.6rem;line-height:1;color:var(--rose);margin-bottom:14px;font-weight:300}
+.step-num{font-family:var(--font-d);font-size:2.6rem;line-height:1;color:#BA7382;margin-bottom:14px;font-weight:300}
 .step h3{font-size:1.14rem;margin-bottom:10px}
 .step p{font-size:.94rem;color:var(--ink-soft);line-height:1.65}
 .online-note{margin-top:44px;background:var(--rose-soft);border-radius:var(--r);padding:28px 32px;display:flex;gap:18px;align-items:flex-start;border:1px solid rgba(242,213,217,.7)}
@@ -199,12 +202,12 @@ section{scroll-margin-top:80px}
 /* ===== FOOTER ===== */
 footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:34px;padding-bottom:40px}
-.foot h4{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-family:var(--font-b);font-weight:500;margin-bottom:16px}
+.foot h3{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-family:var(--font-b);font-weight:500;margin-bottom:16px}
 .foot ul{display:grid;gap:9px}
 .foot a,.foot li{font-size:.9rem;color:var(--ink-soft)}
 .foot a:hover{color:var(--bordeaux)}
 .foot-brand{display:flex;align-items:center;gap:11px;margin-bottom:14px}
-.foot-bottom{padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;color:#9B8A91}
+.foot-bottom{padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;color:#6B5A62}
 .foot-bottom a{color:var(--ink-soft)}
 
 
@@ -245,6 +248,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 .rv{opacity:0;transform:translateY(22px);transition:opacity .85s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1)}
 .rv.in{opacity:1;transform:none}
 .no-js .rv{opacity:1;transform:none}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .rv{opacity:1!important;transform:none!important;transition:none!important}
@@ -258,7 +262,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
   "name": "Dra. Rita Almeida — Psicóloga Clínica",
   "description": "Consultas de psicologia clínica presenciais em Setúbal e online para adolescentes (12–17) e adultos (18+).",
   "url": "https://psicologa-rita-almeida.pages.dev/",
-  "image": "https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg",
+  "image": "https://psicologa-rita-almeida.pages.dev/assets/og-image.jpg",
   "telephone": "+351914770219",
   "email": "ritasousalmeida.psi@gmail.com",
   "priceRange": "€€",
@@ -273,13 +277,61 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
   "sameAs": ["https://www.instagram.com/psi.rita.almeida/"]
 }
 </script>
+<script type="application/ld+json">
+{
+    "@context":  "https://schema.org",
+    "@type":  "FAQPage",
+    "mainEntity":  [
+                       {
+                           "@type":  "Question",
+                           "name":  "Como funciona uma primeira consulta?",
+                           "acceptedAnswer":  {
+                                                  "@type":  "Answer",
+                                                  "text":  "A primeira sessão é um encontro de 50 minutos para nos conhecermos, compreender a sua situação e discutirmos juntos se o acompanhamento é adequado. Não há diagnóstico imediato — apenas escuta e clareza."
+                                              }
+                       },
+                       {
+                           "@type":  "Question",
+                           "name":  "Preciso de encaminhamento médico?",
+                           "acceptedAnswer":  {
+                                                  "@type":  "Answer",
+                                                  "text":  "Não é obrigatório. Se já tiver acompanhamento médico, posso colaborar com a equipa clínica. Se não tiver, o processo começa pelo acompanhamento psicológico."
+                                              }
+                       },
+                       {
+                           "@type":  "Question",
+                           "name":  "As consultas online são tão eficazes quanto as presenciais?",
+                           "acceptedAnswer":  {
+                                                  "@type":  "Answer",
+                                                  "text":  "Sim. A eficácia depende da qualidade da relação terapêutica e da regularidade, não apenas do formato. Muitos pacientes preferem o online pela flexibilidade e pelo conforto."
+                                              }
+                       },
+                       {
+                           "@type":  "Question",
+                           "name":  "Como são definidos os preços?",
+                           "acceptedAnswer":  {
+                                                  "@type":  "Answer",
+                                                  "text":  "O investimento é definido de forma individualizada, conforme a frequência e o tipo de acompanhamento. O objetivo é garantir acesso sem comprometer a qualidade."
+                                              }
+                       },
+                       {
+                           "@type":  "Question",
+                           "name":  "Posso mudar de presencial para online (ou vice-versa)?",
+                           "acceptedAnswer":  {
+                                                  "@type":  "Answer",
+                                                  "text":  "Sim. A flexibilidade é importante. Pode alternar conforme a sua disponibilidade e necessidade."
+                                              }
+                       }
+                   ]
+}
+</script>
 </head>
 <body>
 <a href="#conteudo" class="skip">Saltar para o conteúdo</a>
 
 <header class="nav">
   <div class="nav-in">
-    <a href="#topo" class="brand" aria-label="Dra. Rita Almeida — página inicial">
+    <a href="#topo" class="brand">
       <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <path d="M8 30V13a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v17" stroke="#7A1F3D" stroke-width="1.7" stroke-linecap="round"/>
         <path d="M23 16h4a4 4 0 0 1 4 4v10" stroke="#7A1F3D" stroke-width="1.7" stroke-linecap="round"/>
@@ -330,6 +382,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 </section>
 <section class="sec rv" id="sobre" aria-label="Sobre Dra. Rita Almeida">
 <div class="wrap about-grid">
+<h2 class="sr-only">Sobre a Dra. Rita Almeida</h2>
 <div class="creds">
 <div class="cred">
 <div class="cred-ic" aria-hidden="true">✓</div>
@@ -442,7 +495,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 </section>
 <section class="cta-final" id="contacto" aria-label="Convite para agendar"><div class="wrap cta-inner"><div><h2>O primeiro passo não precisa ser perfeito.<br>Precisa ser honesto.</h2><p>Agende a sua primeira consulta de 50 minutos. Sem compromisso, sem pressa — apenas escuta.</p><a class="btn btn-fill btn-lg" href="mailto:ritasousalmeida.psi@gmail.com?subject=Quero%20agendar%20minha%20primeira%20sessão">Marcar a minha primeira consulta</a><a class="btn btn-line btn-lg" href="https://wa.me/351914770219" target="_blank" rel="noopener noreferrer">WhatsApp</a><p style="margin-top:14px;font-size:.85rem;color:#6B5A62">📍 Setúbal · Presencial e Online · Cédula OPP 135531</p></div><div class="cta-mark" aria-hidden="true"><svg viewBox="0 0 220 220" fill="none" stroke="#7A1F3D" stroke-width="1" stroke-linecap="round"><rect x="40" y="60" width="70" height="90" rx="4" fill="rgba(242,213,217,.18)"/><rect x="140" y="50" width="60" height="110" rx="6" fill="rgba(242,213,217,.22)"/><line x1="40" y1="100" x2="110" y2="100"/><line x1="140" y1="85" x2="200" y2="85"/><line x1="140" y1="110" x2="200" y2="110"/></svg></div></div></section>
 </main>
-<footer role="contentinfo"><div class="wrap foot-grid"><div class="foot-col"><div class="foot-brand"><span style="width:10px;height:10px;border-radius:50%;background:var(--bordeaux);box-shadow:0 0 8px rgba(122,31,61,.3);display:inline-block"></span><b>Rita Almeida</b></div><p>Psicóloga Clínica · Cédula OPP 135531 · ISPA · UAL</p><p>📍 Consultas Presenciais e Online · Setúbal e Online</p><p><a href="mailto:ritasousalmeida.psi@gmail.com" style="color:var(--ink-soft);text-decoration:underline">ritasousalmeida.psi@gmail.com</a></p></div><div class="foot-col"><h4>Contacto</h4><ul><li><a href="mailto:ritasousalmeida.psi@gmail.com">ritasousalmeida.psi@gmail.com</a></li><li><a href="https://wa.me/351914770219" target="_blank" rel="noopener noreferrer">WhatsApp</a></li></ul></div><div class="foot-col"><h4>Links rápidos</h4><ul><li><a href="#sobre">Sobre</a></li><li><a href="#areas">Áreas</a></li><li><a href="#consultas">Consultas online</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contacto">Agendar</a></li></ul></div><div class="foot-col"><h4>Informações</h4><p>Marca e domínio ainda em definição. Esta página é uma proposta de design profissional para a Dra. Rita Almeida.</p></div></div><div class="wrap foot-bottom"><span>© 2026 Dra. Rita Almeida — Psicologia Clínica. Todos os direitos reservados.</span><span>Proposta de design · Desenvolvido com cuidado.</span></div></footer>
+<footer role="contentinfo"><div class="wrap foot-grid"><div class="foot-col"><div class="foot-brand"><span style="width:10px;height:10px;border-radius:50%;background:var(--bordeaux);box-shadow:0 0 8px rgba(122,31,61,.3);display:inline-block"></span><b>Rita Almeida</b></div><p>Psicóloga Clínica · Cédula OPP 135531 · ISPA · UAL</p><p>📍 Consultas Presenciais e Online · Setúbal e Online</p><p><a href="mailto:ritasousalmeida.psi@gmail.com" style="color:var(--ink-soft);text-decoration:underline">ritasousalmeida.psi@gmail.com</a></p></div><div class="foot-col"><h3>Contacto</h3><ul><li><a href="mailto:ritasousalmeida.psi@gmail.com">ritasousalmeida.psi@gmail.com</a></li><li><a href="https://wa.me/351914770219" target="_blank" rel="noopener noreferrer">WhatsApp</a></li></ul></div><div class="foot-col"><h3>Links rápidos</h3><ul><li><a href="#sobre">Sobre</a></li><li><a href="#areas">Áreas</a></li><li><a href="#consultas">Consultas online</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contacto">Agendar</a></li></ul></div><div class="foot-col"><h3>Informações</h3><p>Marca e domínio ainda em definição. Esta página é uma proposta de design profissional para a Dra. Rita Almeida.</p></div></div><div class="wrap foot-bottom"><span>© 2026 Dra. Rita Almeida — Psicologia Clínica. Todos os direitos reservados.</span><span><a href="/privacidade.html" style="text-decoration:underline">Política de Privacidade</a> · Proposta de design · Desenvolvido com cuidado.</span></div></footer>
 <script>
   document.getElementById('burger').addEventListener('click',function(){var o=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',!o);this.setAttribute('aria-label',o?'Abrir menu':'Fechar menu');document.getElementById('navLinks').classList.toggle('open');});
   document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var i=this.closest('.faq-item'),o=i.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(it){it.classList.remove('open');var btn=it.querySelector('.faq-q');if(btn){btn.setAttribute('aria-expanded','false');}});if(!o){i.classList.add('open');this.setAttribute('aria-expanded','true');}});});

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psicologa-rita-almeida.pages.dev/sitemap.xml
