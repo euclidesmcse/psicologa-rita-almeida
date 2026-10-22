@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-PT" class="no-js">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dra. Rita Almeida — Psicóloga Clínica · Cédula OPP 135531 | Presencial e Online</title>
 <meta name="description" content="Dra. Rita Almeida — Psicóloga Clínica, Cédula OPP 135531. Consultas presenciais em Setúbal e online para adolescentes (12–17) e adultos (18+). Ansiedade, regulação emocional, luto e relações.">
-<link rel="canonical" href="https://ritaalmeida.pt/">
+<link rel="canonical" href="https://psicologa-rita-almeida.pages.dev/">
+<meta name="author" content="Dra. Rita Almeida">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_PT">
+<meta property="og:site_name" content="Dra. Rita Almeida — Psicologia Clínica">
 <meta property="og:title" content="Dra. Rita Almeida — Psicóloga Clínica · OPP 135531">
 <meta property="og:description" content="Cédula OPP 135531 · Consultas presenciais e online para adolescentes e adultos. Acolhimento, escuta e acompanhamento psicológico.">
-<meta property="og:url" content="https://ritaalmeida.pt/">
+<meta property="og:url" content="https://psicologa-rita-almeida.pages.dev/">
+<meta property="og:image" content="https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:image:alt" content="Dra. Rita Almeida, Psicóloga Clínica">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dra. Rita Almeida — Psicóloga Clínica · OPP 135531">
+<meta name="twitter:description" content="Consultas presenciais em Setúbal e online para adolescentes (12–17) e adultos (18+).">
+<meta name="twitter:image" content="https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg">
 <meta name="theme-color" content="#7A1F3D">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/rita-perfil-300.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -81,19 +93,9 @@ section{scroll-margin-top:80px}
 .btn-fill:hover{background:var(--bordeaux-deep);transform:translateY(-2px);box-shadow:0 20px 42px rgba(122,31,61,.26)}
 .btn-line{border-color:var(--line);color:var(--ink)}
 .btn-line:hover{border-color:var(--bordeaux);color:var(--bordeaux);transform:translateY(-2px);box-shadow:0 10px 24px rgba(122,31,61,.12)}
-.btn-ghost{background:transparent;color:var(--ink-soft);padding:10px 4px}
-.btn-ghost:hover{color:var(--bordeaux)}
-.btn-primary-small{background:var(--bordeaux);color:#fff;padding:12px 24px;border-radius:12px;font-weight:600;font-size:.95rem;transition:.2s}
-.btn-primary-small:hover{background:var(--bordeaux-deep);transform:translateY(-1px)}
 .hero-meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:36px;padding-top:26px;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft)}
 .hero-meta span{display:flex;align-items:center;gap:8px}
 .tick{width:16px;height:16px;flex:none;color:var(--bordeaux)}
-
-/* Hero visual: cadeira */
-.hero-art{position:relative;aspect-ratio:4/5;border-radius:200px 200px 18px 18px;background:linear-gradient(170deg,var(--rose-soft) 0%,var(--cream-2) 55%,var(--rose) 100%);display:grid;place-items:center;overflow:hidden;box-shadow:0 30px 70px -30px rgba(122,31,61,.24)}
-.hero-art::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 55% at 50% 88%,rgba(122,31,61,.11),transparent 70%)}
-.hero-art svg{width:66%;position:relative;z-index:1}
-.chair-label{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:2;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);background:rgba(251,246,239,.8);padding:7px 15px;border-radius:100px;backdrop-filter:blur(6px);white-space:nowrap}
 
 /* ===== FOTO HERO + BADGE OPP ===== */
 .hero-photo{position:relative;aspect-ratio:4/4.85;border-radius:200px 200px 22px 22px;overflow:hidden;background:linear-gradient(170deg,var(--rose-soft) 0%,var(--cream-2) 55%,var(--rose) 100%);box-shadow:0 30px 70px -30px rgba(122,31,61,.24);display:grid;place-items:center}
@@ -154,7 +156,6 @@ section{scroll-margin-top:80px}
 .area-intro{color:var(--ink-soft);font-size:.98rem;margin-bottom:28px;padding-bottom:24px;border-bottom:1px solid var(--line)}
 .area ul{display:grid;gap:14px}
 .area li{display:flex;gap:12px;align-items:flex-start;font-size:.97rem;line-height:1.6}
-.area li svg{flex:none;margin-top:5px;color:var(--bordeaux);opacity:.95}
 .area-cta{margin-top:30px;padding-top:24px;border-top:1px solid var(--line);font-size:.9rem;color:var(--ink-soft);font-weight:500}
 
 /* ===== CONSULTAS ONLINE ===== */
@@ -180,34 +181,11 @@ section{scroll-margin-top:80px}
 .faq-q::after{content:"";position:absolute;right:18px;top:50%;width:10px;height:10px;border-right:2px solid var(--bordeaux);border-bottom:2px solid var(--bordeaux);transform:translateY(-70%) rotate(45deg);transition:transform .32s cubic-bezier(.22,1,.36,1)}
 .faq-item.open .faq-q::after{transform:translateY(-20%) rotate(-135deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .42s cubic-bezier(.22,1,.36,1)}
+.faq-item.open .faq-a{max-height:600px}
 .faq-a p{padding:0 20px 26px 20px;font-size:.96rem;color:var(--ink-soft);line-height:1.7}
 
-/* ===== CONTACTO ===== */
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(34px,5vw,72px);align-items:start}
-.form{display:grid;gap:18px}
-.field{display:grid;gap:8px}
-.field label{font-size:.82rem;letter-spacing:.04em;color:var(--ink-soft);font-weight:500}
-.field input,.field textarea,.field select{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:.96rem;transition:.2s;width:100%}
-.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--bordeaux);box-shadow:0 0 0 3px rgba(122,31,61,.09)}
-.field textarea{resize:vertical;min-height:120px}
-.field-hint{font-size:.78rem;color:#9B8A91}
-.form-2col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.consent{display:flex;gap:11px;align-items:flex-start;font-size:.85rem;color:var(--ink-soft);line-height:1.5}
-.consent input{width:17px;height:17px;flex:none;margin-top:2px;accent-color:var(--bordeaux)}
-.form-status{font-size:.9rem;padding:13px 16px;border-radius:10px;display:none}
-.form-status.ok{display:block;background:rgba(46,125,91,.1);color:#256a4d;border:1px solid rgba(46,125,91,.25)}
-.form-status.err{display:block;background:rgba(180,60,60,.1);color:#9c3434;border:1px solid rgba(180,60,60,.25)}
-.contact-aside{display:grid;gap:22px}
-.contact-block{background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px 26px;transition:transform .28s cubic-bezier(.22,1,.36,1),box-shadow .28s ease,border-color .28s ease}
-.contact-block:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(122,31,61,.08);border-color:rgba(122,31,61,.18)}
-.contact-block h3{font-size:1.08rem;margin-bottom:10px}
-.contact-block p{font-size:.94rem;color:var(--ink-soft);line-height:1.65}
-.contact-block a{color:var(--bordeaux);font-weight:600;word-break:break-word}
-.contact-block a:hover{text-decoration:underline}
-.social-row{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
-.soc{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:100px;padding:10px 18px;font-size:.86rem;font-weight:600;transition:.25s cubic-bezier(.22,1,.36,1);background:#fff}
-.soc:hover{background:var(--bordeaux);color:#fff;border-color:var(--bordeaux);transform:translateY(-2px);box-shadow:0 10px 22px rgba(122,31,61,.16)}
-.crp{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;color:var(--ink-soft);background:var(--cream-2);border-radius:6px;padding:7px 12px}
+/* ===== BADGE OPP ===== */
+.opp-badge{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;color:var(--ink-soft);background:var(--cream-2);border-radius:6px;padding:7px 12px}
 
 /* ===== CTA FINAL ===== */
 .cta-final{background:var(--rose-soft);border-top:1px solid rgba(242,213,217,.8);border-bottom:1px solid rgba(242,213,217,.8);position:relative;overflow:hidden}
@@ -215,7 +193,6 @@ section{scroll-margin-top:80px}
 .cta-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(30px,5vw,60px);align-items:center;padding-block:clamp(64px,8vw,108px)}
 .cta-final h2{font-size:clamp(2.05rem,4.2vw,3.25rem);letter-spacing:-.035em;line-height:1.08;margin-bottom:18px}
 .cta-final p{color:var(--ink-soft);max-width:31em;font-size:1.06rem;line-height:1.65;margin-bottom:30px}
-.cta-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
 .cta-mark{opacity:.88}
 .cta-mark svg{width:100%;max-width:300px}
 
@@ -235,8 +212,6 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 .contact-card{background:var(--rose-soft);border:1px solid rgba(242,213,217,.85);border-radius:var(--r);padding:clamp(28px,3.6vw,40px);align-self:start;box-shadow:0 10px 28px rgba(122,31,61,.06)}
 .contact-card h3{font-size:1.32rem;margin-bottom:10px}
 .contact-card p{font-size:.96rem;color:var(--ink-soft);line-height:1.6}
-.cta-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px}
-.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .foot-brand b{font-family:var(--font-d);font-weight:400;font-size:1.15rem;letter-spacing:-.01em}
 .foot-col p{font-size:.9rem;color:var(--ink-soft);margin-bottom:6px;line-height:1.55}
 .area li{position:relative;padding-left:24px}
@@ -244,16 +219,13 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 .area li:nth-child(even){color:var(--ink-soft)}
 .chair-card svg{width:74%;max-width:120px;margin:0 auto 18px;stroke:#F2D5D9;stroke-width:1.1;fill:none;stroke-linecap:round;stroke-linejoin:round}
 .chair-card:hover svg{transform:translateY(-4px);transition:transform .35s cubic-bezier(.22,1,.36,1)}
-.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
-@media (max-width:760px){.cta-actions .btn{width:100%}}
 
 /* ===== RESPONSIVO ===== */
 @media (max-width:980px){
-  .hero-grid,.about-grid,.areas,.faq-grid,.contact-grid,.cta-inner{grid-template-columns:1fr}
+  .hero-grid,.about-grid,.areas,.faq-grid,.cta-inner{grid-template-columns:1fr}
   .chairs-grid{grid-template-columns:repeat(2,1fr)}
   .online-grid{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
-  .hero-art{max-width:420px;margin-inline:auto}
   .cta-mark{display:none}
 }
 @media (max-width:760px){
@@ -262,7 +234,6 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
   .nav-links a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1rem}
   .nav-cta{display:none}
   .burger{display:block}
-  .form-2col{grid-template-columns:1fr}
 }
 @media (max-width:520px){
   .chairs-grid{grid-template-columns:1fr}
@@ -273,12 +244,35 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 /* ===== ANIMAÇÃO ===== */
 .rv{opacity:0;transform:translateY(22px);transition:opacity .85s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1)}
 .rv.in{opacity:1;transform:none}
+.no-js .rv{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .rv{opacity:1!important;transform:none!important;transition:none!important}
   .chair-card:hover,.step:hover,.btn:hover,.nav-cta:hover,.soc:hover{transform:none!important}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Dra. Rita Almeida — Psicóloga Clínica",
+  "description": "Consultas de psicologia clínica presenciais em Setúbal e online para adolescentes (12–17) e adultos (18+).",
+  "url": "https://psicologa-rita-almeida.pages.dev/",
+  "image": "https://psicologa-rita-almeida.pages.dev/assets/rita-perfil-600.jpg",
+  "telephone": "+351914770219",
+  "email": "ritasousalmeida.psi@gmail.com",
+  "priceRange": "€€",
+  "areaServed": { "@type": "City", "name": "Setúbal" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Setúbal", "addressCountry": "PT" },
+  "founder": {
+    "@type": "Person",
+    "name": "Rita Almeida",
+    "jobTitle": "Psicóloga Clínica",
+    "identifier": "OPP 135531"
+  },
+  "sameAs": ["https://www.instagram.com/psi.rita.almeida/"]
+}
+</script>
 </head>
 <body>
 <a href="#conteudo" class="skip">Saltar para o conteúdo</a>
@@ -329,7 +323,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 </div>
 </div>
 <figure class="hero-photo" aria-label="Dra. Rita Almeida — Psicóloga Clínica, Cédula OPP 135531">
-<img src="data:image/jpeg;base64,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" srcset="assets/rita-perfil-300.webp 300w, assets/rita-perfil-600.webp 600w, assets/rita-perfil-300.jpg 300w, assets/rita-perfil-600.jpg 600w" sizes="(max-width: 980px) 100vw, 420px" alt="Dra. Rita Almeida — Psicóloga Clínica, Cédula OPP 135531" width="400" height="485" loading="eager" decoding="async" fetchpriority="high" />
+<img src="assets/rita-perfil-600.jpg" srcset="assets/rita-perfil-300.webp 300w, assets/rita-perfil-600.webp 600w, assets/rita-perfil-300.jpg 300w, assets/rita-perfil-600.jpg 600w" sizes="(max-width: 980px) 100vw, 420px" alt="Dra. Rita Almeida — Psicóloga Clínica, Cédula OPP 135531" width="400" height="485" loading="eager" decoding="async" fetchpriority="high" />
 <span class="hero-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7A1F3D" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg> Cédula OPP 135531 · @psi.rita.almeida</span>
 </figure>
 </div>
@@ -436,22 +430,29 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
 <div class="sec-head center"><h2>Perguntas frequentes</h2><p>Respostas diretas para dúvidas comuns sobre o acompanhamento.</p></div>
 <div class="faq-grid">
 <div class="faq-list" role="region" aria-label="Perguntas e respostas">
-<article class="faq-item open" aria-expanded="true"><button class="faq-q" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))" aria-expanded="true">Como funciona uma primeira consulta?</button><div class="faq-a" style="max-height:200px"><p>A primeira sessão é um encontro de 50 minutos para nos conhecermos, compreender a sua situação e discutirmos juntos se o acompanhamento é adequado. Não há diagnóstico imediato — apenas escuta e clareza.</p></div></article>
-<article class="faq-item" aria-expanded="false"><button class="faq-q" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))" aria-expanded="false">Preciso de encaminhamento médico?</button><div class="faq-a"><p>Não é obrigatório. Se já tiver acompanhamento médico, posso colaborar com a equipa clínica. Se não tiver, o processo começa pelo acompanhamento psicológico.</p></div></article>
-<article class="faq-item" aria-expanded="false"><button class="faq-q" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))" aria-expanded="false">As consultas online são tão eficazes quanto as presenciais?</button><div class="faq-a"><p>Sim. A eficácia depende da qualidade da relação terapêutica e da regularidade, não apenas do formato. Muitos pacientes preferem o online pela flexibilidade e pelo conforto.</p></div></article>
-<article class="faq-item" aria-expanded="false"><button class="faq-q" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))" aria-expanded="false">Como são definidos os preços?</button><div class="faq-a"><p>O investimento é definido de forma individualizada, conforme a frequência e o tipo de acompanhamento. O objetivo é garantir acesso sem comprometer a qualidade.</p></div></article>
-<article class="faq-item" aria-expanded="false"><button class="faq-q" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))" aria-expanded="false">Posso mudar de presencial para online (ou vice-versa)?</button><div class="faq-a"><p>Sim. A flexibilidade é importante. Pode alternar conforme a sua disponibilidade e necessidade.</p></div></article>
+<article class="faq-item open"><button class="faq-q" aria-expanded="true">Como funciona uma primeira consulta?</button><div class="faq-a"><p>A primeira sessão é um encontro de 50 minutos para nos conhecermos, compreender a sua situação e discutirmos juntos se o acompanhamento é adequado. Não há diagnóstico imediato — apenas escuta e clareza.</p></div></article>
+<article class="faq-item"><button class="faq-q" aria-expanded="false">Preciso de encaminhamento médico?</button><div class="faq-a"><p>Não é obrigatório. Se já tiver acompanhamento médico, posso colaborar com a equipa clínica. Se não tiver, o processo começa pelo acompanhamento psicológico.</p></div></article>
+<article class="faq-item"><button class="faq-q" aria-expanded="false">As consultas online são tão eficazes quanto as presenciais?</button><div class="faq-a"><p>Sim. A eficácia depende da qualidade da relação terapêutica e da regularidade, não apenas do formato. Muitos pacientes preferem o online pela flexibilidade e pelo conforto.</p></div></article>
+<article class="faq-item"><button class="faq-q" aria-expanded="false">Como são definidos os preços?</button><div class="faq-a"><p>O investimento é definido de forma individualizada, conforme a frequência e o tipo de acompanhamento. O objetivo é garantir acesso sem comprometer a qualidade.</p></div></article>
+<article class="faq-item"><button class="faq-q" aria-expanded="false">Posso mudar de presencial para online (ou vice-versa)?</button><div class="faq-a"><p>Sim. A flexibilidade é importante. Pode alternar conforme a sua disponibilidade e necessidade.</p></div></article>
 </div>
-<aside class="contact-card" aria-label="Contacto direto"><h3>Quero começar</h3><p>Envie uma mensagem. Respondo no dia útil seguinte.</p><a href="mailto:ritasousalmeida.psi@gmail.com" class="btn btn-fill" style="margin-top:14px;display:inline-flex;padding:12px 22px">Escrever por e-mail</a><p style="font-size:.85rem;color:var(--ink-soft);margin-top:14px">Instagram: <a href="https://www.instagram.com/psi.rita.almeida/" target="_blank" rel="noopener" style="color:var(--bordeaux);text-decoration:underline">@psi.rita.almeida</a></p><div class="crp"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg> Cédula OPP 135531 · Psicóloga Clínica</div></aside>
+<aside class="contact-card" aria-label="Contacto direto"><h3>Quero começar</h3><p>Envie uma mensagem. Respondo no dia útil seguinte.</p><a href="mailto:ritasousalmeida.psi@gmail.com" class="btn btn-fill" style="margin-top:14px;display:inline-flex;padding:12px 22px">Escrever por e-mail</a><p style="font-size:.85rem;color:var(--ink-soft);margin-top:14px">Instagram: <a href="https://www.instagram.com/psi.rita.almeida/" target="_blank" rel="noopener noreferrer" style="color:var(--bordeaux);text-decoration:underline">@psi.rita.almeida</a></p><div class="opp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg> Cédula OPP 135531 · Psicóloga Clínica</div></aside>
+</div>
 </div>
 </section>
-<section class="cta-final" id="contacto" aria-label="Convite para agendar"><div class="wrap cta-inner"><div><h2>O primeiro passo não precisa ser perfeito.<br>Precisa ser honesto.</h2><p>Agende a sua primeira consulta de 50 minutos. Sem compromisso, sem pressa — apenas escuta.</p><a class="btn btn-fill btn-lg" href="mailto:ritasousalmeida.psi@gmail.com?subject=Quero%20agendar%20minha%20primeira%20sessão">Marcar a minha primeira consulta</a><a class="btn btn-line btn-lg" href="https://wa.me/351914770219" target="_blank" rel="noopener">WhatsApp</a><p style="margin-top:14px;font-size:.85rem;color:#6B5A62">📍 Setúbal · Presencial e Online · Cédula OPP 135531</p></div><div class="cta-mark" aria-hidden="true"><svg viewBox="0 0 220 220" fill="none" stroke="#7A1F3D" stroke-width="1" stroke-linecap="round"><rect x="40" y="60" width="70" height="90" rx="4" fill="rgba(242,213,217,.18)"/><rect x="140" y="50" width="60" height="110" rx="6" fill="rgba(242,213,217,.22)"/><line x1="40" y1="100" x2="110" y2="100"/><line x1="140" y1="85" x2="200" y2="85"/><line x1="140" y1="110" x2="200" y2="110"/></svg></div></div></section>
-<footer role="contentinfo"><div class="wrap foot-grid"><div class="foot-col"><div class="foot-brand"><span style="width:10px;height:10px;border-radius:50%;background:var(--bordeaux);box-shadow:0 0 8px rgba(122,31,61,.3);display:inline-block"></span><b>Rita Almeida</b></div><p>Psicóloga Clínica · Cédula OPP 135531 · ISPA · UAL</p><p>📍 Consultas Presenciais e Online · Setúbal e Online</p><p><a href="mailto:ritasousalmeida.psi@gmail.com" style="color:var(--ink-soft);text-decoration:underline">ritasousalmeida.psi@gmail.com</a></p></div><div class="foot-col"><h4>Contacto</h4><ul><li><a href="mailto:ritasousalmeida.psi@gmail.com">ritasousalmeida.psi@gmail.com</a></li><li><a href="https://wa.me/351914770219" target="_blank" rel="noopener">WhatsApp</a></li></ul></div><div class="foot-col"><h4>Links rápidos</h4><ul><li><a href="#sobre">Sobre</a></li><li><a href="#areas">Areas</a></li><li><a href="#consultas">Consultas online</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contacto">Agendar</a></li></ul></div><div class="foot-col"><h4>Informações</h4><p>Marca e domínio ainda em definição. Esta página é uma proposta de design profissional para a Dra. Rita Almeida.</p></div></div><div class="wrap foot-bottom"><span>© 2026 Dra. Rita Almeida — Psicologia Clinica. Todos os direitos reservados.</span><span>Proposta de design · Desenvolvido com cuidado.</span></div></footer>
+<section class="cta-final" id="contacto" aria-label="Convite para agendar"><div class="wrap cta-inner"><div><h2>O primeiro passo não precisa ser perfeito.<br>Precisa ser honesto.</h2><p>Agende a sua primeira consulta de 50 minutos. Sem compromisso, sem pressa — apenas escuta.</p><a class="btn btn-fill btn-lg" href="mailto:ritasousalmeida.psi@gmail.com?subject=Quero%20agendar%20minha%20primeira%20sessão">Marcar a minha primeira consulta</a><a class="btn btn-line btn-lg" href="https://wa.me/351914770219" target="_blank" rel="noopener noreferrer">WhatsApp</a><p style="margin-top:14px;font-size:.85rem;color:#6B5A62">📍 Setúbal · Presencial e Online · Cédula OPP 135531</p></div><div class="cta-mark" aria-hidden="true"><svg viewBox="0 0 220 220" fill="none" stroke="#7A1F3D" stroke-width="1" stroke-linecap="round"><rect x="40" y="60" width="70" height="90" rx="4" fill="rgba(242,213,217,.18)"/><rect x="140" y="50" width="60" height="110" rx="6" fill="rgba(242,213,217,.22)"/><line x1="40" y1="100" x2="110" y2="100"/><line x1="140" y1="85" x2="200" y2="85"/><line x1="140" y1="110" x2="200" y2="110"/></svg></div></div></section>
+</main>
+<footer role="contentinfo"><div class="wrap foot-grid"><div class="foot-col"><div class="foot-brand"><span style="width:10px;height:10px;border-radius:50%;background:var(--bordeaux);box-shadow:0 0 8px rgba(122,31,61,.3);display:inline-block"></span><b>Rita Almeida</b></div><p>Psicóloga Clínica · Cédula OPP 135531 · ISPA · UAL</p><p>📍 Consultas Presenciais e Online · Setúbal e Online</p><p><a href="mailto:ritasousalmeida.psi@gmail.com" style="color:var(--ink-soft);text-decoration:underline">ritasousalmeida.psi@gmail.com</a></p></div><div class="foot-col"><h4>Contacto</h4><ul><li><a href="mailto:ritasousalmeida.psi@gmail.com">ritasousalmeida.psi@gmail.com</a></li><li><a href="https://wa.me/351914770219" target="_blank" rel="noopener noreferrer">WhatsApp</a></li></ul></div><div class="foot-col"><h4>Links rápidos</h4><ul><li><a href="#sobre">Sobre</a></li><li><a href="#areas">Áreas</a></li><li><a href="#consultas">Consultas online</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contacto">Agendar</a></li></ul></div><div class="foot-col"><h4>Informações</h4><p>Marca e domínio ainda em definição. Esta página é uma proposta de design profissional para a Dra. Rita Almeida.</p></div></div><div class="wrap foot-bottom"><span>© 2026 Dra. Rita Almeida — Psicologia Clínica. Todos os direitos reservados.</span><span>Proposta de design · Desenvolvido com cuidado.</span></div></footer>
 <script>
-  document.getElementById('burger').addEventListener('click',function(){var o=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',!o);document.getElementById('navLinks').classList.toggle('open');});
-  document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var i=this.closest('.faq-item'),o=i.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(it){it.classList.remove('open');it.setAttribute('aria-expanded','false');});if(!o){i.classList.add('open');i.setAttribute('aria-expanded','true');}});});
-  var o=new IntersectionObserver(function(e){e.forEach(function(i){if(i.isIntersecting){i.target.classList.add('in');o.unobserve(i.target);}});},{threshold:.08});
-  document.querySelectorAll('.rv').forEach(function(el){o.observe(el);});
+  document.getElementById('burger').addEventListener('click',function(){var o=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',!o);this.setAttribute('aria-label',o?'Abrir menu':'Fechar menu');document.getElementById('navLinks').classList.toggle('open');});
+  document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var i=this.closest('.faq-item'),o=i.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(it){it.classList.remove('open');var btn=it.querySelector('.faq-q');if(btn){btn.setAttribute('aria-expanded','false');}});if(!o){i.classList.add('open');this.setAttribute('aria-expanded','true');}});});
+  document.documentElement.classList.remove('no-js');
+  if('IntersectionObserver' in window){
+    var o=new IntersectionObserver(function(e){e.forEach(function(i){if(i.isIntersecting){i.target.classList.add('in');o.unobserve(i.target);}});},{threshold:.08});
+    document.querySelectorAll('.rv').forEach(function(el){o.observe(el);});
+  }else{
+    document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});
+  }
 </script>
 </body>
 </html>

@@ -17,7 +17,11 @@ Landing page estática (PT-PT) — paleta rosa-claro `#F2D5D9` / bordô `#7A1F3D
 ## Local
 
 ```bash
-docker build -t psicologa-demo . && docker run -p 8081:80 psicologa-demo
-# ou
+docker build -t psicologa-site .
+docker run -p 8081:80 psicologa-site
+# ou (carregar a imagem no cluster antes)
 kubectl apply -f k8s-deploy.yaml
+# http://localhost:30081
 ```
+
+> **Nota:** `canonical`, `og:url` e `og:image` apontam para `psicologa-rita-almeida.pages.dev` enquanto o domínio final (`ritaalmeida.pt`) não estiver confirmado. Atualizar estes valores quando a marca/domínio forem definidos.
