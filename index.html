@@ -503,6 +503,13 @@ footer{padding:56px 0 30px;border-top:1px solid var(--line)}
   if('IntersectionObserver' in window){
     var o=new IntersectionObserver(function(e){e.forEach(function(i){if(i.isIntersecting){i.target.classList.add('in');o.unobserve(i.target);}});},{threshold:.08});
     document.querySelectorAll('.rv').forEach(function(el){o.observe(el);});
+    var revealSkipped=function(){
+      document.querySelectorAll('.rv:not(.in)').forEach(function(el){
+        if(el.getBoundingClientRect().top < window.innerHeight){el.classList.add('in');}
+      });
+    };
+    window.addEventListener('scroll',function(){window.requestAnimationFrame(revealSkipped);},{passive:true});
+    revealSkipped();
   }else{
     document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});
   }
