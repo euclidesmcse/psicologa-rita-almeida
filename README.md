@@ -1,9 +1,9 @@
 # Dra. Rita Almeida — Psicóloga Clínica
 
-Landing page estática (PT-PT) — paleta rosa-claro `#F2D5D9` / bordô `#7A1F3D` / creme `#FBF6EF`, símbolo das cadeiras (individualidade).
+Landing page estática (PT-PT) — fundo branco/off-white limpo, detalhes rosa-claro `#F2D5D9` / bordô `#7A1F3D`, símbolo das cadeiras (individualidade).
 
 - **Formação:** UAL · ISPA | **Estágios:** APPDA-Setúbal
-- **Secções:** Hero · Sobre mim · Áreas (Adolescentes 12–17 / Adultos 18+) · Consultas (presencial + online) · Princípios (cadeiras) · Pausa guiada (respiração 4/4) · FAQ · Contacto · Política de Privacidade · 404
+- **Secções:** Hero · Sobre mim · Áreas (Adolescentes 12–17 / Adultos 18+ · 45€/50 min) · Consultas (exclusivamente online, Google Meet) · Princípios (cadeiras) · Pausa guiada (respiração 4/4) · FAQ · Contacto · Política de Privacidade · 404
 - **Movimento:** revelação suave ao scroll, traço desenhado no título, pausa de respiração — tudo desligado com `prefers-reduced-motion`
 - **Stack:** HTML+CSS puro, sem build, acessível (skip link, aria-label, FAQ accordion, focus-visible, `prefers-reduced-motion`)
 - **SEO/performance:** fontes self-hosted, `srcset` WebP/JPG, OG image 1200×630, JSON-LD (`MedicalBusiness` + `FAQPage`), `robots.txt`, `sitemap.xml`, manifest PWA
